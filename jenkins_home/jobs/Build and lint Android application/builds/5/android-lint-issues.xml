@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation-array>
+  <issue plugin="android-lint@2.2">
+    <message>[I18N] Hardcoded string &amp;quot;Communicate&amp;quot;, should use `@string` resource</message>
+    <priority>NORMAL</priority>
+    <key>0</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.61">
+        <start>23</start>
+        <end>23</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>23</primaryLineNumber>
+    <fileName>/var/jenkins_home/jobs/Build and lint Android application/workspace/app/src/main/res/menu/activity_main_drawer.xml</fileName>
+    <moduleName></moduleName>
+    <category>Internationalization</category>
+    <type>HardcodedText</type>
+    <contextHashCode>-380293178</contextHashCode>
+    <origin>android-lint</origin>
+    <pathName>app/src/main/res/menu</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <locations/>
+    <explanation>Hardcoding text attributes directly in layout files is bad for several reasons:  * When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)  * The application cannot be translated to other languages by just adding new translations for existing string resources.  In Android Studio and Eclipse there are quickfixes to automatically extract this hardcoded string into a resource lookup.</explanation>
+    <errorLines>
+      <string>  &amp;lt;item android:title=&amp;quot;Communicate&amp;quot;&amp;gt;</string>
+      <string>        ~~~~~~~~~~~~~~~~~~~~~~~~~~~</string>
+    </errorLines>
+  </issue>
+  <issue plugin="android-lint@2.2">
+    <message>[I18N] Hardcoded string &amp;quot;Share&amp;quot;, should use `@string` resource</message>
+    <priority>NORMAL</priority>
+    <key>1</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.61">
+        <start>28</start>
+        <end>28</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>28</primaryLineNumber>
+    <fileName reference="../../issue/fileName"/>
+    <moduleName reference="../../issue/moduleName"/>
+    <category>Internationalization</category>
+    <type>HardcodedText</type>
+    <contextHashCode>1489066842</contextHashCode>
+    <origin>android-lint</origin>
+    <pathName>app/src/main/res/menu</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <locations/>
+    <explanation>Hardcoding text attributes directly in layout files is bad for several reasons:  * When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)  * The application cannot be translated to other languages by just adding new translations for existing string resources.  In Android Studio and Eclipse there are quickfixes to automatically extract this hardcoded string into a resource lookup.</explanation>
+    <errorLines>
+      <string>          android:title=&amp;quot;Share&amp;quot;/&amp;gt;</string>
+      <string>          ~~~~~~~~~~~~~~~~~~~~~</string>
+    </errorLines>
+  </issue>
+  <issue plugin="android-lint@2.2">
+    <message>[I18N] Hardcoded string &amp;quot;Send&amp;quot;, should use `@string` resource</message>
+    <priority>NORMAL</priority>
+    <key>2</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.61">
+        <start>32</start>
+        <end>32</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>32</primaryLineNumber>
+    <fileName reference="../../issue/fileName"/>
+    <moduleName reference="../../issue/moduleName"/>
+    <category>Internationalization</category>
+    <type>HardcodedText</type>
+    <contextHashCode>-1346760391</contextHashCode>
+    <origin>android-lint</origin>
+    <pathName>app/src/main/res/menu</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <locations/>
+    <explanation>Hardcoding text attributes directly in layout files is bad for several reasons:  * When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)  * The application cannot be translated to other languages by just adding new translations for existing string resources.  In Android Studio and Eclipse there are quickfixes to automatically extract this hardcoded string into a resource lookup.</explanation>
+    <errorLines>
+      <string>          android:title=&amp;quot;Send&amp;quot;/&amp;gt;</string>
+      <string>          ~~~~~~~~~~~~~~~~~~~~</string>
+    </errorLines>
+  </issue>
+</annotation-array>

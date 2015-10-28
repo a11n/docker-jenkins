@@ -1,0 +1,35 @@
+commit 28d1a7f11eb07e0997e5c574d70249437676abd9
+tree 7a0ad726573d60ce661eeb392287f712bfa78127
+parent 3b80541f78094dbdf8cff77eb59e7bd13d7bcc1f
+author a11n <andre.diermann@gmail.com> 2015-10-28 08:42:05 +0100
+committer a11n <andre.diermann@gmail.com> 2015-10-28 08:42:05 +0100
+
+    Extracted some hardcoded values.
+
+
+
+:100644 100644 ae84355c085999eac225e73c5b707bc99791f9be 50302eb365f93a5498c6394c14df35bbb192699e M	app/src/main/res/menu/activity_main_drawer.xml
+:100644 100644 b69af5c4c1de5de932fdacd71d9b4af3a951d225 8d8b888ef82e1477140063a4108c5fdb724425ba M	app/src/main/res/values/strings.xml
+commit 3b80541f78094dbdf8cff77eb59e7bd13d7bcc1f
+tree b089f2297875542ef8c70349f83ff4a21dc4feed
+parent 1a3ece684efb6c66073012b1a4222da6b310b0a9
+author a11n <andre.diermann@gmail.com> 2015-10-28 08:38:51 +0100
+committer a11n <andre.diermann@gmail.com> 2015-10-28 08:38:51 +0100
+
+    Added lintOptions, disabled abortOnError in order to allow Jenkins to
+    analyze the Lint results.
+
+
+
+:100644 100644 979158fe3cd96af9cf06e35c3b4e2fca9577c299 2e3d12c9f89f92d2ac6cd7ae94a8e6b3f27a4c2e M	app/build.gradle
+commit 1a3ece684efb6c66073012b1a4222da6b310b0a9
+tree 655f0e0801166a3e6fc857bdb5fea14ce775ea82
+parent 55b3100cdb3e00467e033143991ac388f21c247a
+author a11n <andre.diermann@gmail.com> 2015-10-20 11:29:32 +0200
+committer a11n <andre.diermann@gmail.com> 2015-10-20 11:29:32 +0200
+
+    Added test fot HelloWorldDetector.
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 5605097cf450c6a56f033c325269843db88bf4d0 A	lintrules/src/test/java/de/ad/lintrules/HelloWorldDetectorTest.java

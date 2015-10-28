@@ -1,0 +1,152 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/Build and lint Android application/workspace
+Cloning the remote Git repository
+Cloning repository https://bitbucket.org/a11n/lintdemo
+ > git init /var/jenkins_home/jobs/Build and lint Android application/workspace # timeout=10
+Fetching upstream changes from https://bitbucket.org/a11n/lintdemo
+ > git --version # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://bitbucket.org/a11n/lintdemo +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://bitbucket.org/a11n/lintdemo # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://bitbucket.org/a11n/lintdemo # timeout=10
+Fetching upstream changes from https://bitbucket.org/a11n/lintdemo
+ > git -c core.askpass=true fetch --tags --progress https://bitbucket.org/a11n/lintdemo +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9110f35716da44b7d8c696ef3fc16ca9926b4879 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9110f35716da44b7d8c696ef3fc16ca9926b4879
+First time build. Skipping changelog.
+[Gradle] - Launching build.
+[workspace] $ "/var/jenkins_home/jobs/Build and lint Android application/workspace/gradlew" assembleDebug app:lint
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.1.1 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.1.1 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.1.1 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:preBuild UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:preDebugBuild UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:checkDebugManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:preReleaseBuild UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintrules:compileJava
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintrules:processResources UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintrules:classes
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintrules:jar
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileLint
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:copyReleaseLint
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:mergeReleaseProguardFiles
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:preBuild UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:preReleaseBuild UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:checkReleaseManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:prepareReleaseDependencies
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileReleaseAidl
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileReleaseRenderscript
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateReleaseBuildConfig
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateReleaseAssets UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:mergeReleaseAssets
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateReleaseResValues
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateReleaseResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageReleaseResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:processReleaseManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:processReleaseResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateReleaseSources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:processReleaseJavaRes UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileReleaseJavaWithJavac
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageReleaseJar
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileReleaseNdk UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageReleaseJniLibs UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageReleaseLocalJar UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageReleaseRenderscript UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:bundleRelease
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:prepareComAndroidSupportAppcompatV72301Library
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:prepareComAndroidSupportDesign2301Library
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:prepareComAndroidSupportSupportV42301Library
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:prepareWorkspaceLintwrapperUnspecifiedLibrary
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:prepareDebugDependencies
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileDebugAidl
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileDebugRenderscript
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateDebugBuildConfig
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateDebugAssets UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:mergeDebugAssets
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateDebugResValues
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateDebugResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:mergeDebugResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:processDebugManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:processDebugResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateDebugSources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:processDebugJavaRes UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileDebugJavaWithJavac
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileDebugNdk UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileDebugSources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:preDexDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:dexDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:validateDebugSigning
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:packageDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:zipalignDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:assembleDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:copyDebugLint
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:mergeDebugProguardFiles
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:preDebugBuild UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:checkDebugManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:prepareDebugDependencies
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileDebugAidl
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileDebugRenderscript
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateDebugBuildConfig
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateDebugAssets UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:mergeDebugAssets
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateDebugResValues
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateDebugResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageDebugResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:processDebugManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:processDebugResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:generateDebugSources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:processDebugJavaRes UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileDebugJavaWithJavac
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageDebugJar
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileDebugNdk UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageDebugJniLibs UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageDebugLocalJar UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:packageDebugRenderscript UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:bundleDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:compileDebugSources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:lintwrapper:assembleDebug
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileLint
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:checkReleaseManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:prepareReleaseDependencies
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileReleaseAidl
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileReleaseRenderscript
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateReleaseBuildConfig
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateReleaseAssets UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:mergeReleaseAssets
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateReleaseResValues
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateReleaseResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:mergeReleaseResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:processReleaseManifest
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:processReleaseResources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:generateReleaseSources
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:processReleaseJavaRes UP-TO-DATE
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:compileReleaseJavaWithJavac
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpC7zV766aHPULSYGhooiBimoluT8vOJ8oFpnCA1SyAABjCCFBQDX67qaYgAAAA==[0m:app:lint
+Ran lint on variant debug: 16 issues found
+Ran lint on variant release: 16 issues found
+Wrote HTML report to file:/var/jenkins_home/jobs/Build%20and%20lint%20Android%20application/workspace/app/build/outputs/lint-results.html
+Wrote XML report to /var/jenkins_home/jobs/Build and lint Android application/workspace/app/build/outputs/lint-results.xml
+
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUz5l5Yk5+em+uWXpBabBRd0uewzZWJgqChikILqSs7PK84HKneG0CCFDBDACFJYAAAMk/XNZQAAAA==[0mBUILD SUCCESSFUL
+
+Total time: 2 mins 3.848 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+Build step 'Invoke Gradle script' changed build result to SUCCESS
+[android-lint] Collecting Android Lint files...
+[android-lint] Finding all files that match the pattern **/lint-results.xml
+[android-lint] Parsing 1 file in /var/jenkins_home/jobs/Build and lint Android application/workspace
+[android-lint] Successfully parsed file /var/jenkins_home/jobs/Build and lint Android application/workspace/app/build/outputs/lint-results.xml with 16 unique warnings and 0 duplicates.
+Finished: SUCCESS

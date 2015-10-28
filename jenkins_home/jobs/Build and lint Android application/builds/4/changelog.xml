@@ -1,0 +1,13 @@
+commit 55b3100cdb3e00467e033143991ac388f21c247a
+tree 76359a62c1f69c5be0bf10fee7e4d988bd13b2e7
+parent d13c427e2efe0189ba7ae02b90b7649c395b0bea
+author a11n <andre.diermann@gmail.com> 2015-10-20 09:42:00 +0200
+committer a11n <andre.diermann@gmail.com> 2015-10-20 09:42:00 +0200
+
+    Fixed HelloWorld Lint violation. Fixed PrivateResource Lint violations.
+
+
+
+:100644 100644 54e56659ccbb1e164814e2fb27be203af03d65dc e245c9da9d02380255d993ef9b89573fb7fda866 M	app/src/main/AndroidManifest.xml
+:100644 100644 c64be0529a98d05fe2e4e44bd22ed9c2738c2cbe 3458a599e1524450dc15eff74e4ca5ef17fa6bc0 M	app/src/main/res/layout/app_bar_main.xml
+:100644 100644 f9b43532e4ffc3376596001afd13023460a29af7 28dd55a7113ebee4d89dd442e861cb3d7cdd1013 M	app/src/main/res/values/dimens.xml

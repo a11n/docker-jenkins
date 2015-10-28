@@ -1,0 +1,15 @@
+commit 72360643fd0b195ffff20bc3acb54254dfe4a858
+tree 11314f2d0a6b569be506ac973a540919a2eee4fd
+parent 9110f35716da44b7d8c696ef3fc16ca9926b4879
+author a11n <andre.diermann@gmail.com> 2015-10-20 09:11:27 +0200
+committer a11n <andre.diermann@gmail.com> 2015-10-20 09:11:27 +0200
+
+    Fixed AllowBackup Lint violation. Fixed ContentDescription Lint
+    violation. Fixed UnusedAttribute Lint violation.
+
+
+
+:100644 100644 4892e6e7b9bce623d92aab5c6da1c7b824358741 979158fe3cd96af9cf06e35c3b4e2fca9577c299 M	app/build.gradle
+:100644 100644 6834cb891c8f083448e69c136bacd58e2498fc5d 54e56659ccbb1e164814e2fb27be203af03d65dc M	app/src/main/AndroidManifest.xml
+:100644 100644 7b27773ccc09e2b05fe665665a110f04831d93b5 29d59b505e5e688ce4bc89edbc31c2d3a00367ef M	app/src/main/res/layout/nav_header_main.xml
+:100644 100644 5c5fcd0ee848458fdbac2b3f6038d04e99e62871 305a862263181b66671f910dd58b22b3a0de340b M	app/src/main/res/values/strings.xml

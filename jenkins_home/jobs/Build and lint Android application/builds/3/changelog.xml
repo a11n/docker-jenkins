@@ -1,0 +1,13 @@
+commit d13c427e2efe0189ba7ae02b90b7649c395b0bea
+tree 1c34576f69dc43dc27bf52428aafc4df5f7d5714
+parent 72360643fd0b195ffff20bc3acb54254dfe4a858
+author a11n <andre.diermann@gmail.com> 2015-10-20 09:17:40 +0200
+committer a11n <andre.diermann@gmail.com> 2015-10-20 09:17:40 +0200
+
+    Fixed HardcodedText Lint violations in layout files.
+
+
+
+:100644 100644 c7aca746d863d3f230ac5069641a311b3b4538f6 387a6f6a558462112fd59d0e3f6541b33d2e2cc8 M	app/src/main/res/layout/content_main.xml
+:100644 100644 29d59b505e5e688ce4bc89edbc31c2d3a00367ef 5aa43f16cde553b6fb68f765e63ade36e632b7d0 M	app/src/main/res/layout/nav_header_main.xml
+:100644 100644 305a862263181b66671f910dd58b22b3a0de340b b69af5c4c1de5de932fdacd71d9b4af3a951d225 M	app/src/main/res/values/strings.xml
